@@ -10,5 +10,5 @@ Commands of fun
 - /rconfig (Reload the config files)
 
 Join and Leave messages!:
-[Hub] %user% &7left the game.
-[Hub] %user% &7Joined the game.
+- [Hub] %user% &7left the game.
+- [Hub] %user% &7Joined the game.
