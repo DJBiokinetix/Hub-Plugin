@@ -40,7 +40,7 @@ public class Hub extends JavaPlugin implements Listener{
   @EventHandler
   public void Join(PlayerJoinEvent e){
     if (e.getPlayer().hasPermission("join.hub")){
-      e.setJoinMessage(getConfig().getString("Join").replaceAll("&", "§").replaceAll("%usuario%", e.getPlayer().getName()));
+      e.setJoinMessage(getConfig().getString("Join").replaceAll("&", "§").replaceAll("%user%", e.getPlayer().getName()));
       firework(e.getPlayer());
       return;
     }
