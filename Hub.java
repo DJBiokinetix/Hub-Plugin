@@ -32,6 +32,7 @@ public class Hub extends JavaPlugin implements Listener{
     if(cmd.getName().equalsIgnoreCase("rconfig")){
       saveDefaultConfig();
       reloadConfig();
+      sender.sendMessage(ChatColor.GREEN + "Configuration reloaded!");
     }
     return false;
   }
