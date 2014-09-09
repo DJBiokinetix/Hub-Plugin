@@ -1,0 +1,10 @@
+name:
+main:
+version:
+author:
+commands:
+ rconfig:
+  description: Reload the config files!
+permissions:
+  join.hub
+    default: op
