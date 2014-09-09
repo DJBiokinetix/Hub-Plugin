@@ -7,6 +7,8 @@ import org.bukkit.FireworkEffect.Type;
 import org.bukkit.Server;
 import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Firework;
 import org.bukkit.entity.Player;
@@ -24,6 +26,14 @@ public class Hub extends JavaPlugin implements Listener{
   public void onEnable(){
     saveDefaultConfig();
     getServer().getPluginManager().registerEvents(this, this);
+  }
+  
+  public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
+    if(cmd.getName().equalsIgnoreCase("rconfig")){
+      saveDefaultConfig();
+      reloadConfig();
+    }
+    return false;
   }
   
   @EventHandler
