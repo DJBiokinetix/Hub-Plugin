@@ -1,7 +1,7 @@
-name:
-main:
-version:
-author:
+name: Hub
+main: me.DJBiokinetix.Hub
+version: 0.1
+author: DJBiokinetix
 commands:
  rconfig:
   description: Reload the config files!
