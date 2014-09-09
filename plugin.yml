@@ -3,8 +3,8 @@ main: me.DJBiokinetix.Hub
 version: 0.1
 author: DJBiokinetix
 commands:
- rconfig:
-  description: Reload the config files!
+   rconfig:
+    description: Reload the config.
 permissions:
-  join.hub
-    default: op
+    join.hub:
+        default: op
