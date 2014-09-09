@@ -3,10 +3,10 @@ Hub-Plugin
 
 Plugin Hub of PlayCraft Networks
 
+VERSION: 0.1
+
 Functions:
 - Commands:
-- /fake (False leave message)
-- /fw (Shoot a firework!)
 - /rconfig (Reload the config files)
 
 Join and Leave messages (Editable in config.yml):
