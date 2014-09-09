@@ -1,0 +1,36 @@
+#------------------------------------------------#
+#                                                #
+#                ¡The Hub Plugin!                #
+#             ¡Configuration Files!              #
+#        The plugin accept the color codes:      #
+#                                                #
+#           &1 = Dark Blue | &2 = Dark Green     #
+#           &3 = Dark Aqua | &4 = Dark Red       #
+#           &5 = Purple    | &6 = Gold           #
+#           &7 = Gray      | &8 = Dark Gray      #
+#           &9 = Blue      | &0 = Black          #
+#           &a = Green     | &b = Aqua           #
+#           &c = Red       | &d = Pink           #
+#           &e = Yellow    | &f = White          #
+#           &r = Reset     | &l = BOLD           #
+#           &k = Magic     | &o = Italic         #
+#                                                # 
+#           Thanks for use my plugin! ;)         #
+#            Hub 0.1 by DJBiokinetix             #
+#                                                #
+#          Visit my server of Minecraft          #
+#            IP: mc.playcraftsv.com              #
+#------------------------------------------------#
+#         This line is a join message:           #
+
+Join: '&8[&6Hub&8] &e%user%&8» &7joined the game'
+
+#Note:
+#Add the permission: join.hub
+#To group VIP, Moderator, etc...
+
+#Example in Minecraft Chat: [Hub] DJBiokinetix» joined the game
+
+#-------------------------------------------------------------------------------#
+#¡¡¡WARNING!!! Don't touch or change the variable "%user%" or the plugin crash! #
+#-------------------------------------------------------------------------------#
