@@ -1,10 +1,42 @@
 name: Hub
 main: me.DJBiokinetix.Hub
-version: 0.1
+version: 3.6
 author: DJBiokinetix
 commands:
+   firework:
+    description: Shoot firework.
+    aliases: [fw]
+   fake:
+    description: Fake message.
+   entry:
+    description: Fake message.
    rconfig:
     description: Reload the config.
 permissions:
+    rconfig.hub:
+        default: op
+    fake.hub:
+        default: op
+    firework.hub:
+        default: op
+    firework.admin:
+        default: op
+    firework.coord:
+        default: op
     join.hub:
         default: op
+    leave.hub:
+        default: op
+    sound.hub:
+        default: op
+    hub.*:
+        description: Gives access to all Hub events and commands
+        children:
+            rconfig.hub: true
+            fake.hub: true
+            firework.hub: true
+            firework.admin: true
+            firework.coord: true
+            join.hub: true
+            leave.hub: true
+            sound.hub: true
