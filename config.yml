@@ -15,13 +15,16 @@
 #           &k = Magic     | &o = Italic         #
 #                                                # 
 #           Thanks for use my plugin! ;)         #
-#            Hub 3.6 by DJBiokinetix             #
+#            Hub 3.9 by DJBiokinetix             #
 #                                                #
 #          Visit my server of Minecraft          #
 #            IP: mc.playcraftsv.com              #
+#                                                #
+#     Remember: Stop the music with command      #
+#                  /stopmusic                    #
 #------------------------------------------------#
 
-#-------------[Entry]--------------
+#---------[Join and Leave]---------
 Join: '&8[&6Hub&8] &e%user%&8» &7join the game'
 Leave: '&8[&6Hub&8] &e%user%&8» &7left the game'
 #---------[Command message]--------
@@ -33,7 +36,6 @@ Firework message: '&8[&6Hub&8] &7Launch firework!'
 No permission: '&8[&6Hub&8] &cNo permissions!'
 Incorrect usage: '&8[&6Hub&8] &7Incorrect command! usage: &b/fw'
 Wait message: '&8[&6Hub&8] &7Wait &c%time &7seconds for launch other firework!'
-
 #-----------------------------------------------------------------------------------------#
 #¡¡¡WARNING!!! Don't touch or change the variable "%user% and %time" or the plugin crash! #
 #-----------------------------------------------------------------------------------------#
