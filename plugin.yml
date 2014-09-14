@@ -1,6 +1,6 @@
 name: Hub
 main: me.DJBiokinetix.Hub
-version: 3.6
+version: 3.9
 author: DJBiokinetix
 commands:
    firework:
@@ -12,6 +12,37 @@ commands:
     description: Fake message.
    rconfig:
     description: Reload the config.
+   music:
+    description: Menu of music.
+   hub:
+    description: Info of the plugin.
+   13:
+    description: Play record.
+   cat:
+    description: Play record.
+   blocks:
+    description: Play record.
+   chirp:
+    description: Play record.
+   far:
+    description: Play record.
+   mall:
+    description: Play record.
+   mellohi:
+    description: Play record.
+   stal:
+    description: Play record.
+   strad:
+    description: Play record.
+   ward:
+    description: Play record.
+   11:
+    description: Play record.
+   wait:
+    description: Play record.
+   stopmusic:
+    description: Stop the music.
+    aliases: [smusic]
 permissions:
     rconfig.hub:
         default: op
@@ -27,7 +58,29 @@ permissions:
         default: op
     leave.hub:
         default: op
-    sound.hub:
+    13.hub:
+        default: op
+    cat.hub:
+        default: op
+    blocks.hub:
+        default: op
+    chirp.hub:
+        default: op
+    far.hub:
+        default: op
+    mall.hub:
+        default: op
+    mellohi.hub:
+        default: op
+    stal.hub:
+        default: op
+    strad.hub:
+        default: op
+    ward.hub:
+        default: op
+    11.hub:
+        default: op
+    wait.hub:
         default: op
     hub.*:
         description: Gives access to all Hub events and commands
@@ -39,4 +92,18 @@ permissions:
             firework.coord: true
             join.hub: true
             leave.hub: true
-            sound.hub: true
+    music.hub.*:
+        description: Gives access to all music discs!
+        children:
+            13.hub: true
+            cat.hub: true
+            blocks.hub: true
+            chirp.hub: true
+            far.hub: true
+            mall.hub: true
+            mellohi.hub: true
+            stal.hub: true
+            strad.hub: true
+            ward.hub: true
+            11.hub: true
+            wait.hub: true
