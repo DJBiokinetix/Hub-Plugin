@@ -63,9 +63,7 @@ public boolean onCommand(CommandSender sender, Command cmd, String label, String
 			              jugador.sendMessage(ChatColor.GREEN + "Command: /entry - Fake message 'join'");
 			              jugador.sendMessage(ChatColor.GREEN + "Command: /rconfig - Reload the config files!");
 			              jugador.sendMessage(ChatColor.GREEN + "Command: /music - menu of the disco mode...");
-			          } else {
-			            jugador.sendMessage(formatVariables(wrong, jugador));
-			         }
+			          }
 			     }
 	  	      }
 
